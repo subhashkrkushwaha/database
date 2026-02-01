@@ -5,6 +5,7 @@
       <env name="LOCAL_DATABASE_URL" value="jdbc:mysql://localhost:3306/playing_db" />
       <env name="SERVER_DATABASE_PASSWORD" value="720f268e785db46dc20732c088646f4ed834a112" />
       <env name="SERVER_DATABASE_URL" value="jdbc:mysql://9r18mh.h.filess.io:61002/blog_db_sharpheart?useSSL=false&amp;serverTimezone=UTC " />
+      <env name="ENV" value="prod" />
     </envs>
     <module name="databse" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.db.DatabasePlayingApplication" />
